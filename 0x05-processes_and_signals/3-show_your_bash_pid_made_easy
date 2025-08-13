@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays PID and process name of all bash processes using pgrep
+
+pgrep -a bash | while read -r pid _; do
+  echo "$pid bash"
+done
