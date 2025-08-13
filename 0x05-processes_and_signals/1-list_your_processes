@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# List all processes in a hierarchical format with standard user info
+ps auxf
